@@ -1,6 +1,6 @@
 # eslint-config-nvs
 
-This package provides a [ESLint shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for the VI Company's JS coding style.
+This package provides a [ESLint shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for the Netvlies's JS coding style.
 
 ## Installation
 
