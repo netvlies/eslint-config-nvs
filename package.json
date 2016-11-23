@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-nvs",
+  "version": "0.0.1",
+  "description": "ESLint shareable config used by Netvlies",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netvlies/eslint-config-nvs.git"
+  },
+  "scripts": {
+    "find-rules": "eslint-find-rules -u -n ./node.js",
+    "test": "eslint test/**/*.js",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Netvlies",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "netvlies"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-config-vi": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
+}
