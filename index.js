@@ -3,6 +3,7 @@ module.exports = {
 	"rules": {
 		"comma-dangle": ["error", "never"],
 		"no-console": "off",
-		"space-before-function-paren": ["error", "always"]
+		"space-before-function-paren": ["error", "always"],
+		"arrow-parens": ["error", "always"]
 	}
 }
