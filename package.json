@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nvs",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "ESLint shareable config used by Netvlies",
   "main": "index.js",
   "repository": {
