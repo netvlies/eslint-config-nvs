@@ -1,5 +1,5 @@
 module.exports = {
-	"extends": "eslint-config-vi",
+	"extends": "vi",
 	"rules": {
 		"comma-dangle": ["error", "never"],
 		"no-console": "off",
