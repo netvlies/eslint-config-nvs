@@ -51,6 +51,11 @@ If you need to support legacy code, you can use the [`nvs/legacy`](legacy.js) co
 }
 ```
 
+## [Update & Publish to NPM](https://docs.npmjs.com/cli/version)
+```npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]```
+
+```npm publish```
+
 ## Changelog
 
 Read the [Changelog](CHANGELOG.md)
